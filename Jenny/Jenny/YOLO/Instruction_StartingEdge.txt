@@ -1,0 +1,5 @@
+打开Powershell
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\run.ps1
+
+验证：
+用别的机器或窗口跑curl.exe http://221.226.60.30:8000/health

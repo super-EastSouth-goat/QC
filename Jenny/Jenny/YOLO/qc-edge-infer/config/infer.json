@@ -1,0 +1,7 @@
+﻿{
+  "model_path": "models/best.pt",
+  "default_imgsz": 640,
+  "conf_thres": 0.25,
+  "iou_thres": 0.45,
+  "ng_classes": ["screw_ng", "stud_ng"]
+}

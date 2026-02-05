@@ -1,0 +1,49 @@
+# 大文件
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Python (后端)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.pytest_cache/
+
+# Node (前端 - 虽然子目录有，但根目录防万一)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# 环境变量与密钥
+.env
+.env.local
+.env.*.local
+*.pem
+
+# IDE
+.vscode/
+.idea/
+.cursor/
+*.swp
+*.swo
+Thumbs.db
+.DS_Store
+
+# Cursor/Terminals
+terminals/
